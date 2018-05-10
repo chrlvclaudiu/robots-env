@@ -1,0 +1,26 @@
+{
+    "name": "chrlvclaudiu/robots-env",
+    "type": "composer-plugin",
+    "minimum-stability": "dev",
+    "license": "GPL-3.0-only",
+    "keywords": ["htaccess", "environment", "git"],
+    "extra": {
+        "class": "DreamProduction\\Composer\\Plugin"
+    },
+    "bin": [
+        "bin/robots-env.sh"
+    ],
+    "require": {
+        "composer-plugin-api": "^1.1"
+    },
+    "requre-dev": {},
+    "authors": [
+	    {
+	      "name": "Claudiu Chirilov",
+	      "email": "claudiu@dreamproduction.com"
+	    }
+	],
+    "autoload": {
+        "psr-4": {"DreamProduction\\Composer\\": "src/"}
+    }
+}
