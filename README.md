@@ -1,2 +1,2 @@
 # htaccess-env
-Merges .htaccess contents from environment defined files.
+Merges robots.txt contents from environment defined files.
